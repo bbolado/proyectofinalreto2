@@ -1,5 +1,8 @@
+
+<section class="nav__content">
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
+        <a href=""><img  src="{{asset('img/navbar/logo.png')}}"alt="" /></a>
             <a href=""><img id="logoimg" src="{{asset('img/logo.png')}}"alt="" /></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -31,3 +34,4 @@
         </div>
     </div>
 </nav>
+</section>
